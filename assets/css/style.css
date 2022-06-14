@@ -78,7 +78,7 @@ h3{
 margin: 5px 0 15px 0;
 
 }
-/* Hero Style Start */
+/* Hero Styles Start */
 .hero{
   background-image: url(../images/hero-bg.jpeg);
   height: 600px;
@@ -86,12 +86,10 @@ margin: 5px 0 15px 0;
   background-position: center;
   position: relative;
 }
-/* Hero Style End */
 
-/* Hero Form Style Start */
 .hero-form{
   border: 3px solid #024e76;
-  background-color: #fce138;
+  background-color: #FCE14B;
   padding: 20px;
   width: 500px;
   color: #024e76;
@@ -99,9 +97,7 @@ margin: 5px 0 15px 0;
   bottom: 120px;
   right: 140px;
 }
-/* Hero Form Style End */ 
 
-/* Form Input Styling Start */
 .form-input{
   border: 1px solid #024e76;
   display: block;
@@ -111,4 +107,17 @@ margin: 5px 0 15px 0;
   width: 100%;
   margin-bottom: 15px;
 }
-/* Form Input Styling End */
+
+.hero-form label{
+  margin: 0 5px;
+}
+
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+/* Hero Styles End */
+
