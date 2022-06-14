@@ -5,10 +5,12 @@
 }
 
 body {
+  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
 
+/* apply styles to <header> */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -66,30 +68,21 @@ footer a {
 
 section {
   padding: 60px;
-  
 }
 
-h3{
-  margin: 0;
-  font-size: 24px;
-}
-
-.hero-form p{
-margin: 5px 0 15px 0;
-
-}
-/* Hero Styles Start */
-.hero{
-  background-image: url(../images/hero-bg.jpeg);
+/* Hero Style Start */
+.hero {
+  background-image: url('../images/hero-bg.jpeg');
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
 }
+/* Hero Style End */
 
-.hero-form{
+.hero-form {
   border: 3px solid #024e76;
-  background-color: #FCE14B;
+  background-color: #fce138;
   padding: 20px;
   width: 500px;
   color: #024e76;
@@ -98,7 +91,15 @@ margin: 5px 0 15px 0;
   right: 140px;
 }
 
-.form-input{
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.form-input {
   border: 1px solid #024e76;
   display: block;
   padding: 7px 15px;
@@ -108,7 +109,7 @@ margin: 5px 0 15px 0;
   margin-bottom: 15px;
 }
 
-.hero-form label{
+.hero-form label {
   margin: 0 5px;
 }
 
@@ -119,5 +120,3 @@ margin: 5px 0 15px 0;
   padding: 10px 20px;
   font-size: 16px;
 }
-/* Hero Styles End */
-
