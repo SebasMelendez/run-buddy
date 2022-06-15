@@ -10,7 +10,6 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-
 /* apply styles to <header> */
 header {
   padding: 20px 35px;
@@ -73,7 +72,7 @@ section {
 
 /* Hero Style Start */
 .hero {
-  background-image: url('../images/hero-bg.jpeg');
+  background-image: url('../images/hero-bg.jpg');
   height: 600px;
   background-size: cover;
   background-position: center;
@@ -92,10 +91,39 @@ section {
   right: 140px;
 }
 
+.hero-form h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.hero-form p {
+  margin: 5px 0 15px 0;
+}
+
+.form-input {
+  border: 1px solid #024e76;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #024e76;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.hero-form label {
+  margin: 0 5px;
+}
+
+.hero-form button {
+  color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
 .intro {
   text-align: center;
 }
-
 
 .intro p {
   line-height: 1.7;
@@ -105,10 +133,11 @@ section {
   margin: 0 auto;
 }
 
-.steps{
+.steps {
   text-align: center;
   background: #fce138;
 }
+
 .steps div {
   margin-bottom: 80px;
 }
@@ -148,34 +177,4 @@ section {
 
 .secondary-border {
   border-color: #39a6b2;
-}
-
-.hero-form h3 {
-  font-size: 24px;
-  margin: 0;
-}
-.hero-form p {
-  margin: 5px 0 15px 0;
-}
-
-.form-input {
-  border: 1px solid #024e76;
-  display: block;
-  padding: 7px 15px;
-  font-size: 16px;
-  color: #024e76;
-  width: 100%;
-  margin-bottom: 15px;
-}
-
-.hero-form label {
-  margin: 0 5px;
-}
-
-.hero-form button {
-  color: #fce138;
-  background-color: #024e76;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
 }
