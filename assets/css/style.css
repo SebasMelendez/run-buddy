@@ -9,6 +9,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+
 /* HEADER / NAV BAR STYLES START */
 
 header {
@@ -51,6 +52,8 @@ header nav ul li a {
 
 /* HEADER / NAVBAR STYLES END */
 
+
+
 /* FOOTER STYLES START */
 footer {
   background: #fce138;
@@ -90,7 +93,7 @@ section {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  align-items: flex-start
+  align-items: flex-start;
 }
 
 .hero-cta {
@@ -342,6 +345,7 @@ section {
   color: #fce138;
 }
 
+
 /* REACH OUT STYLES END */
 
 /* UTILITIES */
@@ -383,6 +387,7 @@ section {
     text-align: center;
     width: 100%;
   }
+
   .hero-cta, .hero-form {
     width: 100%;
   }
@@ -390,6 +395,7 @@ section {
   .hero-cta {
     text-align: center;
   }
+
   .section-title {
     width: 80%;
   }
@@ -401,12 +407,10 @@ section {
   .contact-info iframe{
     flex: 1 100%;
   }
-  
 }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
-
   section {
     padding: 30px 15px;
   }
@@ -432,12 +436,10 @@ section {
   .step-text {
     flex: 100%;  
   }
-
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-
   .hero-form button {
     width: 100%;
   }
